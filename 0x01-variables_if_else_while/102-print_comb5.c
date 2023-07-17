@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
  * main - p prints all possible combination of two two-digit numbers
  * Return: 0 (Success)
