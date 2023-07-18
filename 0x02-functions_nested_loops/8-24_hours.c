@@ -2,11 +2,10 @@
 
 /**
  * jack_bauer - Prints every minute of the day of jack Bauer
- * Return: ...
+ * Return:...
  */
 
 void jack_bauer(void)
-
 {
 	int a, b, c, d;
 	
