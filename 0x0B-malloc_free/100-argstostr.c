@@ -7,7 +7,7 @@
  * @av: double pointer array
  * Return: 0
  */
-char *argstostr(int ac, char *av)
+char *argstostr(int ac, char **av)
 {
 	int i, n, r = 0, l = 0;
 	char *str;
@@ -34,7 +34,8 @@ char *argstostr(int ac, char *av)
 			r++;
 		}
 		if (str[r] == '\0')
-		{str[r++] = '\n';
+		{
+			str[r++] = '\n';
 		}
 	}
 	return (str);
