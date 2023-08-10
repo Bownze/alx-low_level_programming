@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * main - print the minimum number of coins to
@@ -18,8 +19,8 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	num = atio(argv[1]);
-	ruselt = 0;
+	num = atoi(argv[1]);
+	result = 0;
 	if (num < 0)
 	{
 		printf("0\n");
